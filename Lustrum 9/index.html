@@ -11,7 +11,8 @@
       type="image/x-icon"
       href="assets/img/logo/Logo lustrum zonder achtergrond 1.svg"
     />
-    <!-- Place favicon.ico in the root directory -->
+
+    <script defer data-domain="lustrum.plankenkoorts.com" src="https://stats.plankenkoorts.com/js/script.js"></script>
 
     <!-- ======== CSS here ======== -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
@@ -19,6 +20,18 @@
     <link rel="stylesheet" href="assets/css/fontawesome-all.css" />
     <link rel="stylesheet" href="assets/css/animate.css" />
     <link rel="stylesheet" href="assets/css/main.css" />
+    <!-- Bootstrap CSS (if not already included) -->
+<!--       <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+      />
+ -->
+      <!-- FullCalendar CSS -->
+      <link
+        href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.css"
+        rel="stylesheet"
+    />
+
   </head>
   <body>
     <!--[if lte IE 9]>
@@ -84,7 +97,13 @@
                       <a class="page-scroll" href="#activiteiten">Activiteiten</a>
                     </li>
                     <li class="nav-item">
-                      <a class="page-scroll" href="#media">Media</a>
+                      <a class="page-scroll" href="#competitie">Competitie</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="page-scroll" href="#video">Video's</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="page-scroll" href="#fotoalbums">Fotoalbums</a>
                     </li>
                     <li class="nav-item">
                       <a class="page-scroll" href="#throwback">Throwback</a>
@@ -124,15 +143,14 @@
           </div>
           <div class="col-lg-6">
             <div class="hero-img wow fadeInUp" data-wow-delay=".5s">
-              <img src="assets/img/hero/banner_openingsfeest.jpeg" alt="" height="500px" width="500px" />
+              <img src="assets/img/hero/banner.jpeg" alt="" height="500px" width="500px" />
             </div>
           </div>
         </div>
       </div>
     </section>
     <!-- ======== hero-section end ======== -->
-
-    <!-- ======== feature-section start ======== -->
+ <!-- ======== feature-section start ======== -->
     <section id="activiteiten" class="feature-extended-section">
       <div class="feature-extended-wrapper">
         <div class="container">
@@ -233,8 +251,219 @@
       </div>
     </section>
     <!-- ======== feature-section end ======== -->
+        <!-- ======== feature-section start ======== -->
+    <section id="competitie" class="feature-extended-section">
+      <div class="feature-extended-wrapper">
+<!--         <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-xxl-5 col-xl-6 col-lg-8 col-md-9">
+              <div class="section-title text-center mb-60">
+                <h2 class="mb-25 wow fadeInUp" data-wow-delay=".2s">
+                  Springtij competitie
+                </h2>
+                <p class="wow fadeInUp" data-wow-delay=".4s">
+                  Verdien punten door de surfen tijdens springtij. Er zijn mooie prijzen te winnen!
+                  Als je tijdens springtij hebt gesurft kun je de tricks die je hebt gestaan insturen bij Christie (van de lustrumcommissie). Een surfsessie is 1 punt waard en punten voor veschillende tricks kunnen maar 1 keer per sessie worden toegekend. (2 helitags staan geeft nog steeds 1 punt).
+
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-xl-6 col-lg-6">
+              <div class="single-feature-extended">
+                <div class="content">
+                  <h3 class="section-title text-center mb-60">Wanneer is het springtij?</h3>
+                  <div id="tideCalendar"></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-6 col-lg-6">
+              <div class="single-feature-extended">
+                <div class="content">
+                  <h3 class="section-title text-center mb-60">Leaderboard</h3>
+                  <p>
+                    Coming soon
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </section>
+    <!-- ======== feature-section end ======== -->
+
     <!-- ======== feature-section start ======== -->
-    <section id="throwback" class="feature-extended-section pt-100">
+    <section id="competitie" class="feature-section pt-120">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-xxl-6 col-xl-7 col-lg-9 col-md-10">
+            <div class="section-title text-center mb-60">
+              <h2 class="mb-25 wow fadeInUp" data-wow-delay=".2s">
+                Springtij competitie
+              </h2>
+              <p class="wow fadeInUp" data-wow-delay=".4s">
+                Verdien punten door de surfen tijdens springtij. Er zijn mooie prijzen te winnen!
+                <br/><br/>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <div class="single-feature">
+                <h3 class="section-title text-center mb-60">Wanneer is het springtij?</h3>
+                <div id="tideCalendar"></div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="single-feature">
+                <h3 class="section-title text-center mb-60">Leaderboard</h3>
+                    <!-- Placeholder image -->
+<!--                   <img 
+                    src="https://via.placeholder.com/500x300?text=Leaderboard+Coming+Soon" 
+                    alt="Leaderboard placeholder" 
+                    class="img-fluid mb-4"
+                  /> -->
+                  <p>
+                    Coming soon
+                  </p>
+                  <br></br>
+                  <!-- Button -->
+                  <a href="https://form.jotform.com/251993549269071" class="btn btn-primary" target="_blank">
+                    Tricks insturen
+                  </a>
+            </div>
+          </div>
+        </div>
+    
+<div class="row justify-content-center">
+  <div class="col-xxl-6 col-xl-7 col-lg-9 col-md-10">
+    <div class="section-title text-center mb-60">
+      <h3 class="mb-25 wow fadeInUp" data-wow-delay=".2s">Spelregels</h3>
+      <p class="wow fadeInUp" data-wow-delay=".4s">
+        Je kan een punt krijgen voor elke sessie op de dag voor, de dag van en de dag na springtij. Verder valt er per freestyle trick een punt te verdienen en nog eens drie punten als je de trick drie keer achter elkaar staat (mastery).
+        <br /><br />
+        Zoek op hoe je alle tricks moet doen in de tricktionary op HS of VB. Veel succes! 
+        
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="row justify-content-center">
+  <!-- Kolom 1 -->
+  <div class="col-lg-4 col-md-8 col-sm-10">
+    <div class="single-feature">
+      <div class="content">
+        <table>
+          <thead>
+            <tr><th>Paginanummer</th><th>Move</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>122</td><td>Stepping to backwinded</td></tr>
+            <tr><td>122</td><td>Semi heli tack to backwinded</td></tr>
+            <tr><td>122</td><td>Clew first to backwinded</td></tr>
+            <tr><td>122</td><td>Sail duck to backwinded</td></tr>
+            <tr><td>126</td><td>Back to back - Step over</td></tr>
+            <tr><td>126</td><td>Back to back - Clew first step over</td></tr>
+            <tr><td>126</td><td>Back to back - Heli tack entry</td></tr>
+            <tr><td>128</td><td>New school duck tack to back to back</td></tr>
+            <tr><td>128</td><td>Clew first fin first to back to back</td></tr>
+            <tr><td>130</td><td>Sail duck 180 to clew first</td></tr>
+            <tr><td>132</td><td>Planing flip to clew first</td></tr>
+            <tr><td>134</td><td>Turning board to fin first</td></tr>
+            <tr><td>134</td><td>Flick flack</td></tr>
+
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Kolom 2 -->
+  <div class="col-lg-4 col-md-8 col-sm-10">
+    <div class="single-feature">
+      <div class="content">
+        <table>
+          <thead>
+            <tr><th>Paginanummer</th><th>Move</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>136</td><td>Reverse flick flack</td></tr>
+            <tr><td>136</td><td>Fin first push tack</td></tr>
+            <tr><td>138</td><td>Non planing willy</td></tr>
+            <tr><td>138</td><td>Non planing lollypop</td></tr>
+            <tr><td>140</td><td>Switch stance non planing</td></tr>
+            <tr><td>142</td><td>Switch stance planing</td></tr>
+            <tr><td>142</td><td>Jibe to switch stance</td></tr>
+            <tr><td>144</td><td>Clew first pivot jibe</td></tr>
+            <tr><td>144</td><td>Switch pivot jibe</td></tr>
+            <tr><td>146</td><td>Non planing backwind jibe</td></tr>
+            <tr><td>146</td><td>Non planing reverse duck jibe</td></tr>
+            <tr><td>150</td><td>Heli tack</td></tr>
+            <tr><td>152</td><td>Switch heli tack</td></tr>
+            <tr><td>152</td><td>Clew first heli tack</td></tr>
+            <tr><td>154</td><td>Jizz</td></tr>
+            <tr><td>156</td><td>Non planing push tack</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Kolom 3 -->
+  <div class="col-lg-4 col-md-8 col-sm-10">
+    <div class="single-feature">
+      <div class="content">
+        <table>
+          <thead>
+            <tr><th>Paginanummer</th><th>Move</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>156</td><td>Nose sink push tack</td></tr>
+            <tr><td>158</td><td>Nose sink push tack to fin first</td></tr>
+            <tr><td>158</td><td>Spin tack</td></tr>
+            <tr><td>158</td><td>Clew first nose sink tack</td></tr>
+            <tr><td>158</td><td>Spin duck to clew first</td></tr>
+            <tr><td>160</td><td>Old school duck tack</td></tr>
+            <tr><td>160</td><td>New school duck tack</td></tr>
+            <tr><td>162</td><td>Upwind 360</td></tr>
+            <tr><td>162</td><td>Upwind 360 diablo sail duck</td></tr>
+            <tr><td>164</td><td>Fin first upwind 360</td></tr>
+            <tr><td>164</td><td>Fin first sail duck upwind 360</td></tr>
+            <tr><td>166</td><td>Clew first upwind 360</td></tr>
+            <tr><td>166</td><td>Clew first upwind 360 with sail duck</td></tr>
+            <tr><td>166</td><td>Clew first fin first upwind 360</td></tr>
+            <tr><td>168</td><td>Gecko flaka</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+  
+            </div>
+            <div class="single-feature"> 
+
+            </div>
+          </div>
+        </div>
+           
+
+        </div>
+      </div>
+    </section>
+    <!-- ======== feature-section end ======== -->
+
+
+   
+    <!-- ======== feature-section start ======== -->
+    <section id="video" class="feature-extended-section pt-100">
       <div class="feature-extended-wrapper">
         <div class="container">
           <div class="row align-items-center">
@@ -244,11 +473,7 @@
               <h3>Themabekendmaking Lustrum 9</h3>
             </div>
             <div class="about-img">
-              <video width="600" height="394" controls>
-                <source src="./assets/lustrumthemabekendmakingsvideo.mp4" type="video/mp4">
-                <source src="./assets/img/video_image.jpg" type="video/ogg">
-              our browser does not support the video tag.
-              </video>
+              <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1111647596?h=3902f932af&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="lustrumthema bekendmakingsvideo"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
             </div>
           </div>
           <div class = "col"> </div>
@@ -310,7 +535,7 @@
     <!-- ======== feature-section end ======== -->
     <!-- ======== feature-section start ======== -->
     
-    <section id="media" class="feature-section pt-120">
+    <section id="fotoalbums" class="feature-section pt-120">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-4 col-md-8 col-sm-10">
@@ -526,7 +751,7 @@
               <div class="content">
                 <h3>Saar Houter </h3>
                 <p>
-                  Commisaris Promo
+                  Commissaris Promo
                 </p>
               </div>
             </div>
@@ -539,7 +764,7 @@
               <div class="content">
                 <h3>Christie Bavelaar</h3>
                 <p>
-                  Commisaris Planning
+                  Commissaris Planning
                 </p>
               </div>
             </div>
@@ -552,7 +777,7 @@
               <div class="content">
                 <h3>Thomas Rugers</h3>
                 <p>
-                  Commisaris Extern
+                  Commissaris Extern
                 </p>
               </div>
             </div>
@@ -600,5 +825,117 @@
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/wow.min.js"></script>
     <script src="assets/js/main.js"></script>
+    <!-- FullCalendar JS -->
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/locales/nl.global.min.js"></script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var calendarEl = document.getElementById("tideCalendar");
+
+    var calendar = new FullCalendar.Calendar(calendarEl, {
+      locale: "nl",
+      initialView: "dayGridMonth",
+      height: 400,
+      events: [
+        {
+          title: "Springtij",
+          start: "2025-09-08",
+          color: "#52A2A3",
+        },
+                {
+          title: "Springtij",
+          start: "2025-09-09",
+          color: "#52A2A3",
+        },
+        {
+          title: "Springtij",
+          start: "2025-09-10",
+          color: "#52A2A3",
+        },
+        {
+          title: "Springtij",
+          start: "2025-09-22",
+          color: "#52A2A3",
+        },
+                {
+          title: "Springtij",
+          start: "2025-09-23",
+          color: "#52A2A3",
+        },
+        {
+          title: "Springtij",
+          start: "2025-09-24",
+          color: "#52A2A3",
+        },
+        {
+          title: "Springtij",
+          start: "2025-10-08",
+          color: "#52A2A3",
+        },
+        {
+          title: "Springtij",
+          start: "2025-10-09",
+          color: "#52A2A3",
+        },
+        {
+          title: "Springtij",
+          start: "2025-10-10",
+          color: "#52A2A3",
+        },
+        {
+          title: "Springtij",
+          start: "2025-10-22",
+          color: "#52A2A3",
+        },
+        {
+          title: "Springtij",
+          start: "2025-10-23",
+          color: "#52A2A3",
+        },
+        {
+          title: "Springtij",
+          start: "2025-10-24",
+          color: "#52A2A3",
+        },
+        {
+          title: "Springtij",
+          start: "2025-11-06",
+          color: "#52A2A3",
+        },
+        {
+          title: "Springtij",
+          start: "2025-11-07",
+          color: "#52A2A3",
+        },
+        {
+          title: "Springtij",
+          start: "2025-11-08",
+          color: "#52A2A3",
+        },
+        {
+          title: "Springtij",
+          start: "2025-11-21",
+          color: "#52A2A3",
+        },
+        {
+          title: "Springtij",
+          start: "2025-11-22",
+          color: "#52A2A3",
+        },
+          {
+          title: "Springtij",
+          start: "2025-11-23",
+          color: "#52A2A3",
+        },
+      ],
+    });
+
+    calendar.render();
+  });
+</script>
+
   </body>
+
 </html>

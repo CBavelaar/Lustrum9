@@ -37,6 +37,18 @@ a:focus,
 input:focus,
 textarea:focus,
 button:focus,
+
+.btn-primary {
+  background-color: #630613; /* default color */
+  border-color: #630613;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #52A2A3; /* your desired hover color */
+  border-color: #630613;
+}
+
 .btn:focus,
 .btn.focus,
 .btn:not(:disabled):not(.disabled).active,
@@ -106,6 +118,7 @@ h6 a {
 h1 {
   font-size: 45px;
 }
+
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .section-title h2 {
@@ -924,6 +937,34 @@ p {
 }
 
 /* ====== feature css ====== */
+
+/* Achtergrond van kalender */
+#tideCalendar .fc {
+  background-color: #f8f9fa; /* lichtgrijs */
+  border-radius: 8px;
+  padding: 10px;
+}
+
+#tideCalendar a{
+  color: #3b040b;
+}
+
+/* Titelbalk */
+.fc-toolbar-title {
+  color: #3b040b; /* Bootstrap blauw */
+  font-weight: bold;
+}
+
+/* Event-tekst */
+.fc-event {
+  font-weight: 500;
+}
+
+/* Hover effect */
+.fc-event:hover {
+  background-color: #0056b3 !important;
+}
+
 @media (max-width: 767px) {
   .feature-section.pt-120 {
     padding-top: 80px;
